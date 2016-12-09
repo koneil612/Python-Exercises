@@ -65,14 +65,29 @@
 # plot.show()
 
 # ######## SIN part 2 (cleaning it up)
+# import matplotlib.pyplot as plot
+# import math
+# from numpy import arange
+#
+# def f(x):
+#     return math.sin(x)
+#
+# xs = arange(-5, 6, 0.1)
+# ys = []
+# for x in xs:
+#     ys.append(f(x))
+#
+# plot.plot(xs, ys)
+# plot.show()
+
+
+# ####Degree Conversion
 import matplotlib.pyplot as plot
-import math
-from numpy import arange
-
+    
 def f(x):
-    return math.sin(x)
+    return Fah == (Cel * 1.8) + 32.
 
-xs = arange(-5, 6, 0.1)
+xs = range(-5, 5)
 ys = []
 for x in xs:
     ys.append(f(x))
