@@ -3,7 +3,7 @@ import time
 
 
 start_time = time.time()
-l=range(100000)
+l=range(100)
 random.shuffle(l)
 
 # l.index - this will actaully get the stuff in l
