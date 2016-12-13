@@ -82,14 +82,20 @@
 #
 # print checkPair("((alkjflkaj)))))))")
 
-# Implement a function to convert a string to an integer.
-s = '2464'
+# Implement a function to convert a string to an integer. The following cases should be considered for this problem:
+# 1. null or empty string
+# 2. white spaces
+# 3. +/- sign
+# 4. calculate real value
+# 5. handle min & max
 
-#
+s = "2464"
+
 def converting():
-    if type(s) == str:
-        sti = s.split()
-        change = int(sti)
-        print change
+    for c in s:
+        if type(s) == str:
+            sti = int(s)
+            print type(sti)
+        if s
 
 converting()
